@@ -1,0 +1,3578 @@
+{
+  "meta": {
+    "name": "Renaissance UI Design System",
+    "package": "@ui/design-system",
+    "source": "/Users/ilasaronov/Desktop/ui-design-system-develop",
+    "generatedAt": "2026-06-15",
+    "description": "Визуальное описание компонентов на основе styled-components, токенов и stories",
+    "iconsSource": "icons/"
+  },
+  "icons": {
+    "source": "icons/",
+    "sourceAbsolute": "/Users/ilasaronov/Desktop/Эксперемент/icons",
+    "description": "Единственный набор иконок ДС. Использовать только SVG из этой папки.",
+    "usage": "Поле icons в компоненте — относительный путь от icons/ (например CheckCircle.svg, File/Paperclip.svg). Произвольные иконки вне catalog запрещены.",
+    "catalog": [
+      "AZ.svg",
+      "Activity.svg",
+      "AddList.svg",
+      "AddListV2.svg",
+      "AddListV3.svg",
+      "AddListV4.svg",
+      "Adjust.svg",
+      "Airplay.svg",
+      "AlertCircle.svg",
+      "AlertOctagon.svg",
+      "AlertTriangle.svg",
+      "AlignCenter.svg",
+      "AlignJustify.svg",
+      "AlignLeft.svg",
+      "AlignRight.svg",
+      "Anchor.svg",
+      "Aperture.svg",
+      "App.svg",
+      "Archive.svg",
+      "Arrow.svg",
+      "ArrowDown.svg",
+      "ArrowDownCircle.svg",
+      "ArrowDownLeft.svg",
+      "ArrowDownRight.svg",
+      "ArrowLeft.svg",
+      "ArrowLeftCircle.svg",
+      "ArrowRight.svg",
+      "ArrowRightCircle.svg",
+      "ArrowUp.svg",
+      "ArrowUpCircle.svg",
+      "ArrowUpLeft.svg",
+      "ArrowUpRight.svg",
+      "AtSign.svg",
+      "BarChart.svg",
+      "BarChart2.svg",
+      "Battery.svg",
+      "BatteryCharging.svg",
+      "Bluetooth.svg",
+      "Bold.svg",
+      "Book.svg",
+      "BookOpen.svg",
+      "Bookmark.svg",
+      "Box.svg",
+      "Briefcase.svg",
+      "Calendar.svg",
+      "Camera.svg",
+      "CameraOff.svg",
+      "Car.svg",
+      "CarWithWarning.svg",
+      "Cast.svg",
+      "Check.svg",
+      "CheckCircle.svg",
+      "CheckMinus.svg",
+      "CheckMulti.svg",
+      "CheckSquare.svg",
+      "CheckUncheckAll.svg",
+      "ChevronDown.svg",
+      "ChevronLeft.svg",
+      "ChevronRight.svg",
+      "ChevronUp.svg",
+      "ChevronsDown.svg",
+      "ChevronsLeft.svg",
+      "ChevronsRight.svg",
+      "ChevronsUp.svg",
+      "Circle.svg",
+      "ClearFilters.svg",
+      "ClearSorting.svg",
+      "Clipboard.svg",
+      "Clock.svg",
+      "Cloud.svg",
+      "CloudDrizzle.svg",
+      "CloudLightning.svg",
+      "CloudOff.svg",
+      "CloudRain.svg",
+      "CloudSnow.svg",
+      "Code.svg",
+      "Codepen.svg",
+      "Codesandbox.svg",
+      "Coffee.svg",
+      "CoinRenPlus.svg",
+      "ColorPicker.svg",
+      "Columns.svg",
+      "Command.svg",
+      "Compass.svg",
+      "Copy.svg",
+      "CornerDownLeft.svg",
+      "CornerDownRight.svg",
+      "CornerLeftDown.svg",
+      "CornerLeftUp.svg",
+      "CornerRightDown.svg",
+      "CornerRightUp.svg",
+      "CornerUpLeft.svg",
+      "CornerUpRight.svg",
+      "Cpu.svg",
+      "Crash.svg",
+      "CreditCard.svg",
+      "Crop.svg",
+      "Crosshair.svg",
+      "Crowd.svg",
+      "CrowdAlt.svg",
+      "CrowdAlt2.svg",
+      "Crown.svg",
+      "Database.svg",
+      "Delete.svg",
+      "Diamomd.svg",
+      "Disc.svg",
+      "DollarSign.svg",
+      "DoublePage.svg",
+      "Download.svg",
+      "DownloadCloud.svg",
+      "DragHandle.svg",
+      "DragHandleHorizontal.svg",
+      "DrivingLicense.svg",
+      "DrivingLicenseAlt.svg",
+      "Droplet.svg",
+      "Edit.svg",
+      "Edit2.svg",
+      "Edit3.svg",
+      "ExternalLink.svg",
+      "Eye.svg",
+      "EyeCam.svg",
+      "EyeOff.svg",
+      "FastForward.svg",
+      "FastForwardAlt.svg",
+      "FastRewind.svg",
+      "File/CamerasGroup.svg",
+      "File/DocDocStroke.svg",
+      "File/DocNoneStroke.svg",
+      "File/DocPdfStroke.svg",
+      "File/DocTxtStroke.svg",
+      "File/DocXlsStroke.svg",
+      "File/DocdocxStroke.svg",
+      "File/DownloadFile.svg",
+      "File/File.svg",
+      "File/FileMinus.svg",
+      "File/FilePlus.svg",
+      "File/FileText.svg",
+      "File/Folder.svg",
+      "File/FolderMinus.svg",
+      "File/FolderOpened.svg",
+      "File/FolderPlus.svg",
+      "File/Fromfolder.svg",
+      "File/Indafolder.svg",
+      "File/Paperclip.svg",
+      "File/VideoAdd.svg",
+      "File/doc-doc_full_20w.svg",
+      "File/doc-docx_full_20w.svg",
+      "File/doc-non_full_20w.svg",
+      "File/doc-pdf_full_20w.svg",
+      "File/doc-txt_full_20w.svg",
+      "File/doc-xls_full_20w.svg",
+      "Film.svg",
+      "Filter.svg",
+      "Fire.svg",
+      "Flag.svg",
+      "Forward.svg",
+      "Frown.svg",
+      "Gift.svg",
+      "GitBranch.svg",
+      "GitCommit.svg",
+      "GitMerge.svg",
+      "GitPullRequest.svg",
+      "Glases.svg",
+      "Globe.svg",
+      "Hand.svg",
+      "HardDrive.svg",
+      "Hash.svg",
+      "Headphones.svg",
+      "Heart.svg",
+      "HeartFilled.svg",
+      "HelpCircleDark.svg",
+      "HelpSettings.svg",
+      "Hexagon.svg",
+      "HistoryBack.svg",
+      "Home.svg",
+      "Image.svg",
+      "Inbox.svg",
+      "Info.svg",
+      "Italic.svg",
+      "Key.svg",
+      "Layers.svg",
+      "Layout.svg",
+      "LifeBuoy.svg",
+      "Line-Two.svg",
+      "Line.svg",
+      "LineTop.svg",
+      "Link.svg",
+      "Link2.svg",
+      "List.svg",
+      "ListNumber.svg",
+      "Loader.svg",
+      "LoaderAlt.svg",
+      "Location.svg",
+      "Lock.svg",
+      "LogIn.svg",
+      "LogOut.svg",
+      "Mail.svg",
+      "Map.svg",
+      "MapPin.svg",
+      "Maximize.svg",
+      "Maximize2.svg",
+      "Meh.svg",
+      "Menu.svg",
+      "MessageCircle.svg",
+      "MessageSquare.svg",
+      "MessageSquarePlus.svg",
+      "Mic.svg",
+      "MicOff.svg",
+      "Minimize.svg",
+      "Minimize2.svg",
+      "Minus.svg",
+      "MinusCircle.svg",
+      "MinusSquare.svg",
+      "Monitor.svg",
+      "Moon.svg",
+      "MoreHorizontal.svg",
+      "MoreVertical.svg",
+      "MousePointer.svg",
+      "Move.svg",
+      "Music.svg",
+      "Navigation.svg",
+      "Navigation2.svg",
+      "Notifications/Bell.svg",
+      "Notifications/BellNotify.svg",
+      "Notifications/BellOff.svg",
+      "Notifications/NotificationSettings.svg",
+      "Notifications/NotificationSettingsAlt.svg",
+      "Octagon.svg",
+      "Once.svg",
+      "Package.svg",
+      "Passport.svg",
+      "Pause.svg",
+      "PauseAlt.svg",
+      "PauseCircle.svg",
+      "PenTool.svg",
+      "Percent.svg",
+      "Phone.svg",
+      "PhoneCall.svg",
+      "PhoneIncoming.svg",
+      "PhoneMissed.svg",
+      "PhoneOff.svg",
+      "PhoneOutgoing.svg",
+      "PhotoArchive.svg",
+      "PieChart.svg",
+      "Pin.svg",
+      "PinOff.svg",
+      "Place.svg",
+      "Play.svg",
+      "PlayCircle.svg",
+      "Plus.svg",
+      "PlusCircle.svg",
+      "PlusSquare.svg",
+      "Pocket.svg",
+      "PoiSettings.svg",
+      "Policy.svg",
+      "Power.svg",
+      "Printer.svg",
+      "QRcod.svg",
+      "QuestionCircle.svg",
+      "Radio.svg",
+      "RefreshCcw.svg",
+      "RefreshCw.svg",
+      "Repeat.svg",
+      "Restart.svg",
+      "RestartAlt.svg",
+      "Rewind.svg",
+      "RewindAlt.svg",
+      "RotateCcw.svg",
+      "RotateCw.svg",
+      "Route.svg",
+      "Rss.svg",
+      "RublSign.svg",
+      "Ruler.svg",
+      "Save.svg",
+      "Scissors.svg",
+      "Search.svg",
+      "SearchByPhoto.svg",
+      "Send.svg",
+      "Server.svg",
+      "SettingCam.svg",
+      "Settings.svg",
+      "Share.svg",
+      "Share2.svg",
+      "Shield.svg",
+      "ShieldOff.svg",
+      "ShoppingBag.svg",
+      "ShoppingCart.svg",
+      "Shuffle.svg",
+      "Sidebar.svg",
+      "SkipBack.svg",
+      "SkipForward.svg",
+      "Slash.svg",
+      "Sliders.svg",
+      "Smartphone.svg",
+      "Smile.svg",
+      "SortDown-1.svg",
+      "SortDown.svg",
+      "SortNone.svg",
+      "SortUp-1.svg",
+      "SortUp.svg",
+      "Sorting.svg",
+      "Speaker.svg",
+      "Square.svg",
+      "Star.svg",
+      "StarFilled.svg",
+      "StopCircle.svg",
+      "Sun.svg",
+      "Sunrise.svg",
+      "Sunset.svg",
+      "Tablet.svg",
+      "Tag.svg",
+      "Target.svg",
+      "Terminal.svg",
+      "TextSizeLarge.svg",
+      "TextSizeMicro.svg",
+      "TextSizeRegular.svg",
+      "TextSizeSmall.svg",
+      "Thermometer.svg",
+      "ThumbsDown.svg",
+      "ThumbsUp.svg",
+      "Thunder.svg",
+      "ToggleLeft.svg",
+      "ToggleRight.svg",
+      "Tool.svg",
+      "Trash.svg",
+      "Trash2.svg",
+      "TrendingDown.svg",
+      "TrendingUp.svg",
+      "Triangle.svg",
+      "Truck.svg",
+      "Tv.svg",
+      "Type.svg",
+      "Umbrella.svg",
+      "Underline.svg",
+      "Unlink.svg",
+      "Unlock.svg",
+      "Update.svg",
+      "Upload.svg",
+      "UploadCloud.svg",
+      "User.svg",
+      "UserCheck.svg",
+      "UserMinus.svg",
+      "UserPlus.svg",
+      "UserX.svg",
+      "Users.svg",
+      "Video.svg",
+      "VideoArchive.svg",
+      "VideoFrame.svg",
+      "VideoFrameAlt.svg",
+      "VideoOff.svg",
+      "Voicemail.svg",
+      "Volume.svg",
+      "Volume1.svg",
+      "Volume2.svg",
+      "VolumeX.svg",
+      "Watch.svg",
+      "Wifi.svg",
+      "WifiOff.svg",
+      "Wind.svg",
+      "X.svg",
+      "XCircle.svg",
+      "XCircleFilled.svg",
+      "XOctagon.svg",
+      "XSquare.svg",
+      "Zap.svg",
+      "ZapOff.svg",
+      "ZoomIn.svg",
+      "ZoomOut.svg",
+      "зhoneаorwarded.svg"
+    ]
+  },
+  "designTokens": {
+    "fonts": {
+      "headings": "Gerbera, sans-serif",
+      "body": "Inter, sans-serif"
+    },
+    "typography": {
+      "h1": {
+        "mobile": {
+          "fontSize": "36px",
+          "lineHeight": "40px"
+        },
+        "desktop": {
+          "fontSize": "44px",
+          "lineHeight": "48px"
+        },
+        "fontWeight": 500
+      },
+      "h2": {
+        "mobile": {
+          "fontSize": "32px",
+          "lineHeight": "40px"
+        },
+        "desktop": {
+          "fontSize": "36px",
+          "lineHeight": "40px"
+        },
+        "fontWeight": 500
+      },
+      "h3": {
+        "mobile": {
+          "fontSize": "26px",
+          "lineHeight": "30px"
+        },
+        "desktop": {
+          "fontSize": "32px",
+          "lineHeight": "36px"
+        },
+        "fontWeight": 500
+      },
+      "h4": {
+        "mobile": {
+          "fontSize": "20px",
+          "lineHeight": "24px"
+        },
+        "desktop": {
+          "fontSize": "28px",
+          "lineHeight": "32px"
+        },
+        "fontWeight": 500
+      },
+      "h5": {
+        "mobile": {
+          "fontSize": "18px",
+          "lineHeight": "22px"
+        },
+        "desktop": {
+          "fontSize": "24px",
+          "lineHeight": "28px"
+        },
+        "fontWeight": 500
+      },
+      "h6": {
+        "mobile": {
+          "fontSize": "16px",
+          "lineHeight": "20px"
+        },
+        "desktop": {
+          "fontSize": "20px",
+          "lineHeight": "24px"
+        },
+        "fontWeight": 500
+      },
+      "subtitle": {
+        "mobile": {
+          "fontSize": "16px",
+          "lineHeight": "20px"
+        },
+        "desktop": {
+          "fontSize": "17px",
+          "lineHeight": "24px"
+        },
+        "fontWeight": 500
+      },
+      "body": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "fontWeight": 400
+      },
+      "caption": {
+        "fontSize": "13px",
+        "lineHeight": "16px",
+        "fontWeight": 400
+      },
+      "micro": {
+        "mobile": {
+          "fontSize": "11px",
+          "lineHeight": "13px"
+        },
+        "desktop": {
+          "fontSize": "11px",
+          "lineHeight": "14px"
+        },
+        "fontWeight": 400
+      }
+    },
+    "borderRadius": {
+      "inputFields": {
+        "XL": "24px",
+        "L": "16px",
+        "M": "12px",
+        "S": "8px",
+        "Full": "999px"
+      },
+      "interactive": {
+        "XL": "24px",
+        "L": "16px",
+        "M": "12px",
+        "S": "8px",
+        "XS": "6px",
+        "Full": "999px"
+      },
+      "other": {
+        "XXL": "30px",
+        "XL": "24px",
+        "L": "16px",
+        "M": "12px",
+        "S": "8px",
+        "XS": "6px",
+        "XXS": "4px",
+        "Full": "999px"
+      }
+    },
+    "shadows": {
+      "standard": "0px 8px 16px var(--special-shadow-02)",
+      "header": "0px 1px 2px var(--special-shadow-02)",
+      "modalOverlay": "backdrop-filter: blur(8px); background: var(--bg-base-alpha-05)"
+    },
+    "animation": {
+      "default": "0.25s ease-in-out",
+      "long": "0.6s"
+    },
+    "colors": {
+      "Light": {
+        "Text": {
+          "Primary": {
+            "value": "#200040",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "#6e748c",
+            "type": "color"
+          },
+          "Tertiary": {
+            "value": "#cccfde",
+            "type": "color"
+          },
+          "On_Color": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Brand_Primary": {
+            "value": "#330066",
+            "type": "color"
+          },
+          "Brand_Secondary": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Brand_Secondary_Contrast": {
+            "value": "#339900",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ff9833",
+            "type": "color"
+          },
+          "Warning_Contrast": {
+            "value": "#cc7a29",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff3333",
+            "type": "color"
+          },
+          "Error_Contrast": {
+            "value": "#cc2929",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Success_Contrast": {
+            "value": "#339900",
+            "type": "color"
+          },
+          "Primary_Fixed": {
+            "value": "#200040",
+            "type": "color"
+          },
+          "On_Color_Fixed": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "#6b6a9a",
+            "type": "color"
+          },
+          "Link": {
+            "value": "#3a89ff",
+            "type": "color"
+          },
+          "Link_Hover": {
+            "value": "#0058dd",
+            "type": "color"
+          }
+        },
+        "Bg": {
+          "BG": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "BG_Secondary": {
+            "value": "#f6f6f7",
+            "type": "color"
+          },
+          "Content": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Brand_Primary_00": {
+            "value": "#e9e5ff",
+            "type": "color"
+          },
+          "Brand_Primary_01": {
+            "value": "#d4ccff",
+            "type": "color"
+          },
+          "Brand_Primary_02": {
+            "value": "#aa99ff",
+            "type": "color"
+          },
+          "Brand_Primary_03": {
+            "value": "#330066",
+            "type": "color"
+          },
+          "Brand_Primary_04": {
+            "value": "#200040",
+            "type": "color"
+          },
+          "Brand_Secondary_01": {
+            "value": "#f6fff2",
+            "type": "color"
+          },
+          "Brand_Secondary_02": {
+            "value": "#ddffcc",
+            "type": "color"
+          },
+          "Brand_Secondary_03": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Brand_Secondary_04": {
+            "value": "#52cc14",
+            "type": "color"
+          },
+          "Focused_01": {
+            "value": "#deeeff",
+            "type": "color"
+          },
+          "Focused_02": {
+            "value": "#bdddff",
+            "type": "color"
+          },
+          "Warning_light": {
+            "value": "#fff9f2",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ff9833",
+            "type": "color"
+          },
+          "Warning_contrast": {
+            "value": "#cc7a29",
+            "type": "color"
+          },
+          "Error_light": {
+            "value": "#fff2f2",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff3333",
+            "type": "color"
+          },
+          "Error_contrast": {
+            "value": "#cc2929",
+            "type": "color"
+          },
+          "Success_light": {
+            "value": "#ddffcc",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Success_contrast": {
+            "value": "#4bd709",
+            "type": "color"
+          },
+          "Base_Alpha_01": {
+            "value": "#1e222e00",
+            "type": "color"
+          },
+          "Base_Alpha_02": {
+            "value": "#1e222e0a",
+            "type": "color"
+          },
+          "Base_Alpha_03": {
+            "value": "#1e222e14",
+            "type": "color"
+          },
+          "Base_Alpha_04": {
+            "value": "#1e222e26",
+            "type": "color"
+          },
+          "Base_Alpha_05": {
+            "value": "#1e222ebf",
+            "type": "color"
+          },
+          "Base_01": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Base_02": {
+            "value": "#f6f6f7",
+            "type": "color"
+          },
+          "Base_03": {
+            "value": "#ededee",
+            "type": "color"
+          },
+          "Base_04": {
+            "value": "#dddee0",
+            "type": "color"
+          },
+          "Base_05": {
+            "value": "#565962",
+            "type": "color"
+          },
+          "Base_06": {
+            "value": "#1e222e",
+            "type": "color"
+          },
+          "Contrast_Alpha_01": {
+            "value": "#ffffff00",
+            "type": "color"
+          },
+          "Contrast_Alpha_02": {
+            "value": "#ffffff0a",
+            "type": "color"
+          },
+          "Contrast_Alpha_03": {
+            "value": "#ffffff14",
+            "type": "color"
+          },
+          "Contrast_Alpha_04": {
+            "value": "#ffffff26",
+            "type": "color"
+          },
+          "Contrast_Alpha_05": {
+            "value": "#ffffffbf",
+            "type": "color"
+          },
+          "Contrast_01": {
+            "value": "#1e222e",
+            "type": "color"
+          },
+          "Contrast_02": {
+            "value": "#272b36",
+            "type": "color"
+          },
+          "Contrast_03": {
+            "value": "#30343f",
+            "type": "color"
+          },
+          "Contrast_04": {
+            "value": "#40434d",
+            "type": "color"
+          },
+          "Contrast_05": {
+            "value": "#c7c8cb",
+            "type": "color"
+          },
+          "Contrast_06": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "Stroke": {
+          "Border": {
+            "value": "#cccfde",
+            "type": "color"
+          },
+          "Border_On_color": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Border_Disabled": {
+            "value": "#6b6a9a",
+            "type": "color"
+          },
+          "Divider": {
+            "value": "#cccfde",
+            "type": "color"
+          },
+          "Divider_Accent": {
+            "value": "#a3a7bc",
+            "type": "color"
+          },
+          "Brand_Primary_Alt": {
+            "value": "#aa99ff",
+            "type": "color"
+          },
+          "Brand_Primary_Transparent": {
+            "value": "#d4ccff",
+            "type": "color"
+          },
+          "Brand_Primary": {
+            "value": "#330066",
+            "type": "color"
+          },
+          "Brand_Secondary": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ff9833",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff3333",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Link": {
+            "value": "#3a89ff",
+            "type": "color"
+          },
+          "Link_Hover": {
+            "value": "#0058dd",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "#bdddff",
+            "type": "color"
+          }
+        },
+        "Int_bg": {
+          "Brand_Primary": {
+            "value": "#38056c",
+            "type": "color"
+          },
+          "Brand_Primary_Alt": {
+            "value": "#e5e3ff",
+            "type": "color"
+          },
+          "Brand_Primary_Alpha": {
+            "value": "#aa99ff00",
+            "type": "color"
+          },
+          "Brand_Secondary": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Brand_Secondary_Alt": {
+            "value": "#f6fff2",
+            "type": "color"
+          },
+          "Brand_Secondary_Alpha": {
+            "value": "#99ff6600",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ffb266",
+            "type": "color"
+          },
+          "Warning_Alt": {
+            "value": "#fff9f2",
+            "type": "color"
+          },
+          "Warning_Alpha": {
+            "value": "#ffb26600",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff6666",
+            "type": "color"
+          },
+          "Error_Alt": {
+            "value": "#fff2f2",
+            "type": "color"
+          },
+          "Error_Alpha": {
+            "value": "#ff666600",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Success_Alt": {
+            "value": "#f6fff2",
+            "type": "color"
+          },
+          "Success_Alpha": {
+            "value": "#99ff6600",
+            "type": "color"
+          },
+          "Secondary_Alpha": {
+            "value": "#1e222e0f",
+            "type": "color"
+          },
+          "Transparent_Alpha": {
+            "value": "#1e222e00",
+            "type": "color"
+          },
+          "On_color": {
+            "value": "#200040",
+            "type": "color"
+          },
+          "Page_BG": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Button_Group": {
+            "value": "#d4ccff",
+            "type": "color"
+          }
+        },
+        "Bg_states": {
+          "Brand_Primary-Hover": {
+            "value": "#26004d",
+            "type": "color"
+          },
+          "Brand_Primary-Pressed": {
+            "value": "#200040",
+            "type": "color"
+          },
+          "Brand_Primary_Alt-Hover": {
+            "value": "#d4ccff",
+            "type": "color"
+          },
+          "Brand_Primary_Alt-Pressed": {
+            "value": "#aa99ff",
+            "type": "color"
+          },
+          "Brand_Primary_Alpha-Pressed": {
+            "value": "#aa99ff80",
+            "type": "color"
+          },
+          "Brand_Primary_Alpha-Hover": {
+            "value": "#aa99ff40",
+            "type": "color"
+          },
+          "Brand_Secondary-Hover": {
+            "value": "#77ff33",
+            "type": "color"
+          },
+          "Brand_Secondary-Pressed": {
+            "value": "#5fcc29",
+            "type": "color"
+          },
+          "Brand_Secondary_Alt-Hover": {
+            "value": "#ddffcc",
+            "type": "color"
+          },
+          "Brand_Secondary_Alt-Pressed": {
+            "value": "#ccffb2",
+            "type": "color"
+          },
+          "Brand_Secondary_Alpha-Hover": {
+            "value": "#99ff6626",
+            "type": "color"
+          },
+          "Brand_Secondary_Alpha-Pressed": {
+            "value": "#99ff664d",
+            "type": "color"
+          },
+          "Warning-Hover": {
+            "value": "#ff9833",
+            "type": "color"
+          },
+          "Warning-Pressed": {
+            "value": "#cc7a29",
+            "type": "color"
+          },
+          "Warning_Alt-Hover": {
+            "value": "#ffe5cc",
+            "type": "color"
+          },
+          "Warning_Alt-Pressed": {
+            "value": "#ffd9b2",
+            "type": "color"
+          },
+          "Warning_Alpha-Hover": {
+            "value": "#ffb26626",
+            "type": "color"
+          },
+          "Warning_Alpha-Pressed": {
+            "value": "#ffb2664d",
+            "type": "color"
+          },
+          "Error-Hover": {
+            "value": "#ff3333",
+            "type": "color"
+          },
+          "Error-Pressed": {
+            "value": "#cc2929",
+            "type": "color"
+          },
+          "Error_Alt-Hover": {
+            "value": "#ffcccc",
+            "type": "color"
+          },
+          "Error_Alt-Pressed": {
+            "value": "#ffb2b2",
+            "type": "color"
+          },
+          "Error_Alpha-Hover": {
+            "value": "#ff66661a",
+            "type": "color"
+          },
+          "Error_Alpha-Pressed": {
+            "value": "#ff666633",
+            "type": "color"
+          },
+          "Success-Hover": {
+            "value": "#77ff33",
+            "type": "color"
+          },
+          "Success-Pressed": {
+            "value": "#5fcc29",
+            "type": "color"
+          },
+          "Success_Alt-Hover": {
+            "value": "#ddffcc",
+            "type": "color"
+          },
+          "Success_Alt-Pressed": {
+            "value": "#ccffb2",
+            "type": "color"
+          },
+          "Success_Alpha-Hover": {
+            "value": "#99ff6626",
+            "type": "color"
+          },
+          "Success_Alpha-Pressed": {
+            "value": "#99ff664d",
+            "type": "color"
+          },
+          "Secondary_Alpha-Hover": {
+            "value": "#1e222e1a",
+            "type": "color"
+          },
+          "Secondary_Alpha-Pressed": {
+            "value": "#1e222e26",
+            "type": "color"
+          },
+          "Transparent_Alpha-Hover": {
+            "value": "#1e222e0d",
+            "type": "color"
+          },
+          "Transparent_Alpha-Pressed": {
+            "value": "#1e222e1a",
+            "type": "color"
+          },
+          "On_color-Hover": {
+            "value": "#26004d",
+            "type": "color"
+          },
+          "On_color-Pressed": {
+            "value": "#330066",
+            "type": "color"
+          },
+          "Page_BG-Hover": {
+            "value": "#e9e5ff",
+            "type": "color"
+          },
+          "Page_BG-Pressed": {
+            "value": "#d4ccff",
+            "type": "color"
+          },
+          "Button_Group-Hover": {
+            "value": "#aa99ff",
+            "type": "color"
+          },
+          "Button_Group-Pressed": {
+            "value": "#330066",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "#f8f8f9",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "#dfecff",
+            "type": "color"
+          }
+        },
+        "Special": {
+          "Primary_Shadow": {
+            "value": "#330066",
+            "type": "color"
+          },
+          "Secondary_Shadow": {
+            "value": "#d4ccff",
+            "type": "color"
+          },
+          "Shadow_01": {
+            "value": "#5b687152",
+            "type": "color"
+          },
+          "Shadow_02": {
+            "value": "#5b68713d",
+            "type": "color"
+          }
+        }
+      },
+      "Dark": {
+        "Text": {
+          "Primary": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "#cccfde",
+            "type": "color"
+          },
+          "Tertiary": {
+            "value": "#6e748c",
+            "type": "color"
+          },
+          "On_Color": {
+            "value": "#161922",
+            "type": "color"
+          },
+          "Brand_Primary": {
+            "value": "#6500cc",
+            "type": "color"
+          },
+          "Brand_Secondary": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Brand_Secondary_Contrast": {
+            "value": "#ccffb2",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ff9833",
+            "type": "color"
+          },
+          "Warning_Contrast": {
+            "value": "#ffd9b2",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff6666",
+            "type": "color"
+          },
+          "Error_Contrast": {
+            "value": "#ffb2b2",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Success_Contrast": {
+            "value": "#ccffb2",
+            "type": "color"
+          },
+          "Primary_Fixed": {
+            "value": "#200040",
+            "type": "color"
+          },
+          "On_Color_Fixed": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "#8996ae",
+            "type": "color"
+          },
+          "Link": {
+            "value": "#3195ff",
+            "type": "color"
+          },
+          "Link_Hover": {
+            "value": "#0058dd",
+            "type": "color"
+          }
+        },
+        "Bg": {
+          "BG": {
+            "value": "#161922",
+            "type": "color"
+          },
+          "BG_Secondary": {
+            "value": "#1e222e",
+            "type": "color"
+          },
+          "Content": {
+            "value": "#161922",
+            "type": "color"
+          },
+          "Brand_Primary_00": {
+            "value": "#26044d",
+            "type": "color"
+          },
+          "Brand_Primary_01": {
+            "value": "#330963",
+            "type": "color"
+          },
+          "Brand_Primary_02": {
+            "value": "#5e40d4",
+            "type": "color"
+          },
+          "Brand_Primary_03": {
+            "value": "#6b09cf",
+            "type": "color"
+          },
+          "Brand_Primary_04": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Brand_Secondary_01": {
+            "value": "#25331f",
+            "type": "color"
+          },
+          "Brand_Secondary_02": {
+            "value": "#334d27",
+            "type": "color"
+          },
+          "Brand_Secondary_03": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Brand_Secondary_04": {
+            "value": "#6be52e",
+            "type": "color"
+          },
+          "Focused_01": {
+            "value": "#1a2c43",
+            "type": "color"
+          },
+          "Focused_02": {
+            "value": "#1f446f",
+            "type": "color"
+          },
+          "Warning_light": {
+            "value": "#33291f",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ff9833",
+            "type": "color"
+          },
+          "Warning_contrast": {
+            "value": "#cc7a29",
+            "type": "color"
+          },
+          "Error_light": {
+            "value": "#331f1f",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff3333",
+            "type": "color"
+          },
+          "Error_contrast": {
+            "value": "#cc2929",
+            "type": "color"
+          },
+          "Success_light": {
+            "value": "#25331f",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#76ff33",
+            "type": "color"
+          },
+          "Success_contrast": {
+            "value": "#5fcc29",
+            "type": "color"
+          },
+          "Base_Alpha_01": {
+            "value": "#ffffff00",
+            "type": "color"
+          },
+          "Base_Alpha_02": {
+            "value": "#ffffff0a",
+            "type": "color"
+          },
+          "Base_Alpha_03": {
+            "value": "#ffffff14",
+            "type": "color"
+          },
+          "Base_Alpha_04": {
+            "value": "#ffffff26",
+            "type": "color"
+          },
+          "Base_Alpha_05": {
+            "value": "#ffffffbf",
+            "type": "color"
+          },
+          "Base_01": {
+            "value": "#161922",
+            "type": "color"
+          },
+          "Base_02": {
+            "value": "#1f222b",
+            "type": "color"
+          },
+          "Base_03": {
+            "value": "#292b34",
+            "type": "color"
+          },
+          "Base_04": {
+            "value": "#393c43",
+            "type": "color"
+          },
+          "Base_05": {
+            "value": "#c5c5c8",
+            "type": "color"
+          },
+          "Base_06": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Contrast_Alpha_01": {
+            "value": "#1e222e00",
+            "type": "color"
+          },
+          "Contrast_Alpha_02": {
+            "value": "#1e222e0a",
+            "type": "color"
+          },
+          "Contrast_Alpha_03": {
+            "value": "#1e222e14",
+            "type": "color"
+          },
+          "Contrast_Alpha_04": {
+            "value": "#1e222e26",
+            "type": "color"
+          },
+          "Contrast_Alpha_05": {
+            "value": "#1e222ebf",
+            "type": "color"
+          },
+          "Contrast_01": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Contrast_02": {
+            "value": "#f6f6f7",
+            "type": "color"
+          },
+          "Contrast_03": {
+            "value": "#ededee",
+            "type": "color"
+          },
+          "Contrast_04": {
+            "value": "#dddee0",
+            "type": "color"
+          },
+          "Contrast_05": {
+            "value": "#565962",
+            "type": "color"
+          },
+          "Contrast_06": {
+            "value": "#1e222e",
+            "type": "color"
+          }
+        },
+        "Stroke": {
+          "Border": {
+            "value": "#505669",
+            "type": "color"
+          },
+          "Border_Disabled": {
+            "value": "#8996ae",
+            "type": "color"
+          },
+          "Border_On_color": {
+            "value": "#161922",
+            "type": "color"
+          },
+          "Divider": {
+            "value": "#505669",
+            "type": "color"
+          },
+          "Divider_Accent": {
+            "value": "#a3a7bc",
+            "type": "color"
+          },
+          "Brand_Primary_Transparent": {
+            "value": "#332966",
+            "type": "color"
+          },
+          "Brand_Primary_Alt": {
+            "value": "#2d274d",
+            "type": "color"
+          },
+          "Brand_Primary": {
+            "value": "#6500cc",
+            "type": "color"
+          },
+          "Brand_Secondary": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ffb266",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff6666",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Link": {
+            "value": "#3195ff",
+            "type": "color"
+          },
+          "Link_Hover": {
+            "value": "#0058dd",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "#1f446f",
+            "type": "color"
+          }
+        },
+        "Int_bg": {
+          "Brand_Primary": {
+            "value": "#6b09cf",
+            "type": "color"
+          },
+          "Brand_Primary_Alt": {
+            "value": "#26044d",
+            "type": "color"
+          },
+          "Brand_Primary_Alpha": {
+            "value": "#9a92ff00",
+            "type": "color"
+          },
+          "Brand_Secondary": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Brand_Secondary_Alt": {
+            "value": "#25331f",
+            "type": "color"
+          },
+          "Brand_Secondary_Alpha": {
+            "value": "#99ff6600",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "#ffb266",
+            "type": "color"
+          },
+          "Warning_Alt": {
+            "value": "#33291f",
+            "type": "color"
+          },
+          "Warning_Alpha": {
+            "value": "#ffb26600",
+            "type": "color"
+          },
+          "Error": {
+            "value": "#ff6666",
+            "type": "color"
+          },
+          "Error_Alt": {
+            "value": "#331f1f",
+            "type": "color"
+          },
+          "Error_Alpha": {
+            "value": "#ff666600",
+            "type": "color"
+          },
+          "Success": {
+            "value": "#99ff66",
+            "type": "color"
+          },
+          "Success_Alt": {
+            "value": "#25331f",
+            "type": "color"
+          },
+          "Success_Alpha": {
+            "value": "#99ff6600",
+            "type": "color"
+          },
+          "Secondary_Alpha": {
+            "value": "#ffffff0f",
+            "type": "color"
+          },
+          "Transparent_Alpha": {
+            "value": "#ffffff00",
+            "type": "color"
+          },
+          "On_color": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Page_BG": {
+            "value": "#161922",
+            "type": "color"
+          },
+          "Button_Group": {
+            "value": "#6500cc",
+            "type": "color"
+          }
+        },
+        "Bg_states": {
+          "Brand_Primary-Hover": {
+            "value": "#7200e5",
+            "type": "color"
+          },
+          "Brand_Primary-Pressed": {
+            "value": "#7d17e5",
+            "type": "color"
+          },
+          "Brand_Primary_Alt-Hover": {
+            "value": "#2d274d",
+            "type": "color"
+          },
+          "Brand_Primary_Alt-Pressed": {
+            "value": "#332966",
+            "type": "color"
+          },
+          "Brand_Primary_Alpha-Hover": {
+            "value": "#33296633",
+            "type": "color"
+          },
+          "Brand_Primary_Alpha-Pressed": {
+            "value": "#3329664d",
+            "type": "color"
+          },
+          "Brand_Secondary-Hover": {
+            "value": "#76ff33",
+            "type": "color"
+          },
+          "Brand_Secondary-Pressed": {
+            "value": "#5fcc29",
+            "type": "color"
+          },
+          "Brand_Secondary_Alt-Hover": {
+            "value": "#334d27",
+            "type": "color"
+          },
+          "Brand_Secondary_Alt-Pressed": {
+            "value": "#446633",
+            "type": "color"
+          },
+          "Brand_Secondary_Alpha-Hover": {
+            "value": "#99ff6626",
+            "type": "color"
+          },
+          "Brand_Secondary_Alpha-Pressed": {
+            "value": "#99ff664d",
+            "type": "color"
+          },
+          "Warning-Hover": {
+            "value": "#ff9833",
+            "type": "color"
+          },
+          "Warning-Pressed": {
+            "value": "#cc7a29",
+            "type": "color"
+          },
+          "Warning_Alt-Hover": {
+            "value": "#4d3a27",
+            "type": "color"
+          },
+          "Warning_Alt-Pressed": {
+            "value": "#664d33",
+            "type": "color"
+          },
+          "Warning_Alpha-Hover": {
+            "value": "#ffb26626",
+            "type": "color"
+          },
+          "Warning_Alpha-Pressed": {
+            "value": "#ffb2664d",
+            "type": "color"
+          },
+          "Error-Hover": {
+            "value": "#ff3333",
+            "type": "color"
+          },
+          "Error-Pressed": {
+            "value": "#cc2929",
+            "type": "color"
+          },
+          "Error_Alt-Hover": {
+            "value": "#4d2727",
+            "type": "color"
+          },
+          "Error_Alt-Pressed": {
+            "value": "#663333",
+            "type": "color"
+          },
+          "Error_Alpha-Hover": {
+            "value": "#ff666626",
+            "type": "color"
+          },
+          "Error_Alpha-Pressed": {
+            "value": "#ff66664d",
+            "type": "color"
+          },
+          "Success-Hover": {
+            "value": "#76ff33",
+            "type": "color"
+          },
+          "Success-Pressed": {
+            "value": "#5fcc29",
+            "type": "color"
+          },
+          "Success_Alt-Hover": {
+            "value": "#334d27",
+            "type": "color"
+          },
+          "Success_Alt-Pressed": {
+            "value": "#446633",
+            "type": "color"
+          },
+          "Success_Alpha-Hover": {
+            "value": "#99ff6626",
+            "type": "color"
+          },
+          "Success_Alpha-Pressed": {
+            "value": "#99ff664d",
+            "type": "color"
+          },
+          "Secondary_Alpha-Hover": {
+            "value": "#ffffff1a",
+            "type": "color"
+          },
+          "Secondary_Alpha-Pressed": {
+            "value": "#ffffff26",
+            "type": "color"
+          },
+          "Transparent_Alpha-Hover": {
+            "value": "#ffffff0a",
+            "type": "color"
+          },
+          "Transparent_Alpha-Pressed": {
+            "value": "#ffffff14",
+            "type": "color"
+          },
+          "On_color-Hover": {
+            "value": "#7200e5",
+            "type": "color"
+          },
+          "On_color-Pressed": {
+            "value": "#6500cc",
+            "type": "color"
+          },
+          "Page_BG-Hover": {
+            "value": "#1f1f33",
+            "type": "color"
+          },
+          "Page_BG-Pressed": {
+            "value": "#2d274d",
+            "type": "color"
+          },
+          "Button_Group-Hover": {
+            "value": "#332966",
+            "type": "color"
+          },
+          "Button_Group-Pressed": {
+            "value": "#6500cc",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "#292d39",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "#1a2c43",
+            "type": "color"
+          }
+        },
+        "Special": {
+          "Primary_Shadow": {
+            "value": "#6500cc",
+            "type": "color"
+          },
+          "Secondary_Shadow": {
+            "value": "#332966",
+            "type": "color"
+          },
+          "Shadow_01": {
+            "value": "#dbc1f952",
+            "type": "color"
+          },
+          "Shadow_02": {
+            "value": "#dbc1f93d",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "cssVariables": {
+      "Light": {
+        "Text": {
+          "Primary": "--text-primary",
+          "Secondary": "--text-secondary",
+          "Tertiary": "--text-tertiary",
+          "On_Color": "--text-on-color",
+          "Brand_Primary": "--text-brand-primary",
+          "Brand_Secondary": "--text-brand-secondary",
+          "Brand_Secondary_Contrast": "--text-brand-secondary-contrast",
+          "Warning": "--text-warning",
+          "Warning_Contrast": "--text-warning-contrast",
+          "Error": "--text-error",
+          "Error_Contrast": "--text-error-contrast",
+          "Success": "--text-success",
+          "Success_Contrast": "--text-success-contrast",
+          "Primary_Fixed": "--text-primary-fixed",
+          "On_Color_Fixed": "--text-on-color-fixed",
+          "Disabled": "--text-disabled",
+          "Link": "--text-link",
+          "Link_Hover": "--text-link-hover"
+        },
+        "Bg": {
+          "BG": "--bg-bg",
+          "BG_Secondary": "--bg-bg-secondary",
+          "Content": "--bg-content",
+          "Brand_Primary_00": "--bg-brand-primary-00",
+          "Brand_Primary_01": "--bg-brand-primary-01",
+          "Brand_Primary_02": "--bg-brand-primary-02",
+          "Brand_Primary_03": "--bg-brand-primary-03",
+          "Brand_Primary_04": "--bg-brand-primary-04",
+          "Brand_Secondary_01": "--bg-brand-secondary-01",
+          "Brand_Secondary_02": "--bg-brand-secondary-02",
+          "Brand_Secondary_03": "--bg-brand-secondary-03",
+          "Brand_Secondary_04": "--bg-brand-secondary-04",
+          "Focused_01": "--bg-focused-01",
+          "Focused_02": "--bg-focused-02",
+          "Warning_light": "--bg-warning-light",
+          "Warning": "--bg-warning",
+          "Warning_contrast": "--bg-warning-contrast",
+          "Error_light": "--bg-error-light",
+          "Error": "--bg-error",
+          "Error_contrast": "--bg-error-contrast",
+          "Success_light": "--bg-success-light",
+          "Success": "--bg-success",
+          "Success_contrast": "--bg-success-contrast",
+          "Base_Alpha_01": "--bg-base-alpha-01",
+          "Base_Alpha_02": "--bg-base-alpha-02",
+          "Base_Alpha_03": "--bg-base-alpha-03",
+          "Base_Alpha_04": "--bg-base-alpha-04",
+          "Base_Alpha_05": "--bg-base-alpha-05",
+          "Base_01": "--bg-base-01",
+          "Base_02": "--bg-base-02",
+          "Base_03": "--bg-base-03",
+          "Base_04": "--bg-base-04",
+          "Base_05": "--bg-base-05",
+          "Base_06": "--bg-base-06",
+          "Contrast_Alpha_01": "--bg-contrast-alpha-01",
+          "Contrast_Alpha_02": "--bg-contrast-alpha-02",
+          "Contrast_Alpha_03": "--bg-contrast-alpha-03",
+          "Contrast_Alpha_04": "--bg-contrast-alpha-04",
+          "Contrast_Alpha_05": "--bg-contrast-alpha-05",
+          "Contrast_01": "--bg-contrast-01",
+          "Contrast_02": "--bg-contrast-02",
+          "Contrast_03": "--bg-contrast-03",
+          "Contrast_04": "--bg-contrast-04",
+          "Contrast_05": "--bg-contrast-05",
+          "Contrast_06": "--bg-contrast-06"
+        },
+        "Stroke": {
+          "Border": "--stroke-border",
+          "Border_On_color": "--stroke-border-on-color",
+          "Border_Disabled": "--stroke-border-disabled",
+          "Divider": "--stroke-divider",
+          "Divider_Accent": "--stroke-divider-accent",
+          "Brand_Primary_Alt": "--stroke-brand-primary-alt",
+          "Brand_Primary_Transparent": "--stroke-brand-primary-transparent",
+          "Brand_Primary": "--stroke-brand-primary",
+          "Brand_Secondary": "--stroke-brand-secondary",
+          "Warning": "--stroke-warning",
+          "Error": "--stroke-error",
+          "Success": "--stroke-success",
+          "Link": "--stroke-link",
+          "Link_Hover": "--stroke-link-hover",
+          "Focused": "--stroke-focused"
+        },
+        "Int_bg": {
+          "Brand_Primary": "--int-bg-brand-primary",
+          "Brand_Primary_Alt": "--int-bg-brand-primary-alt",
+          "Brand_Primary_Alpha": "--int-bg-brand-primary-alpha",
+          "Brand_Secondary": "--int-bg-brand-secondary",
+          "Brand_Secondary_Alt": "--int-bg-brand-secondary-alt",
+          "Brand_Secondary_Alpha": "--int-bg-brand-secondary-alpha",
+          "Warning": "--int-bg-warning",
+          "Warning_Alt": "--int-bg-warning-alt",
+          "Warning_Alpha": "--int-bg-warning-alpha",
+          "Error": "--int-bg-error",
+          "Error_Alt": "--int-bg-error-alt",
+          "Error_Alpha": "--int-bg-error-alpha",
+          "Success": "--int-bg-success",
+          "Success_Alt": "--int-bg-success-alt",
+          "Success_Alpha": "--int-bg-success-alpha",
+          "Secondary_Alpha": "--int-bg-secondary-alpha",
+          "Transparent_Alpha": "--int-bg-transparent-alpha",
+          "On_color": "--int-bg-on-color",
+          "Page_BG": "--int-bg-page-bg",
+          "Button_Group": "--int-bg-button-group"
+        },
+        "Bg_states": {
+          "Brand_Primary-Hover": "--bg-states-brand-primary-hover",
+          "Brand_Primary-Pressed": "--bg-states-brand-primary-pressed",
+          "Brand_Primary_Alt-Hover": "--bg-states-brand-primary-alt-hover",
+          "Brand_Primary_Alt-Pressed": "--bg-states-brand-primary-alt-pressed",
+          "Brand_Primary_Alpha-Pressed": "--bg-states-brand-primary-alpha-pressed",
+          "Brand_Primary_Alpha-Hover": "--bg-states-brand-primary-alpha-hover",
+          "Brand_Secondary-Hover": "--bg-states-brand-secondary-hover",
+          "Brand_Secondary-Pressed": "--bg-states-brand-secondary-pressed",
+          "Brand_Secondary_Alt-Hover": "--bg-states-brand-secondary-alt-hover",
+          "Brand_Secondary_Alt-Pressed": "--bg-states-brand-secondary-alt-pressed",
+          "Brand_Secondary_Alpha-Hover": "--bg-states-brand-secondary-alpha-hover",
+          "Brand_Secondary_Alpha-Pressed": "--bg-states-brand-secondary-alpha-pressed",
+          "Warning-Hover": "--bg-states-warning-hover",
+          "Warning-Pressed": "--bg-states-warning-pressed",
+          "Warning_Alt-Hover": "--bg-states-warning-alt-hover",
+          "Warning_Alt-Pressed": "--bg-states-warning-alt-pressed",
+          "Warning_Alpha-Hover": "--bg-states-warning-alpha-hover",
+          "Warning_Alpha-Pressed": "--bg-states-warning-alpha-pressed",
+          "Error-Hover": "--bg-states-error-hover",
+          "Error-Pressed": "--bg-states-error-pressed",
+          "Error_Alt-Hover": "--bg-states-error-alt-hover",
+          "Error_Alt-Pressed": "--bg-states-error-alt-pressed",
+          "Error_Alpha-Hover": "--bg-states-error-alpha-hover",
+          "Error_Alpha-Pressed": "--bg-states-error-alpha-pressed",
+          "Success-Hover": "--bg-states-success-hover",
+          "Success-Pressed": "--bg-states-success-pressed",
+          "Success_Alt-Hover": "--bg-states-success-alt-hover",
+          "Success_Alt-Pressed": "--bg-states-success-alt-pressed",
+          "Success_Alpha-Hover": "--bg-states-success-alpha-hover",
+          "Success_Alpha-Pressed": "--bg-states-success-alpha-pressed",
+          "Secondary_Alpha-Hover": "--bg-states-secondary-alpha-hover",
+          "Secondary_Alpha-Pressed": "--bg-states-secondary-alpha-pressed",
+          "Transparent_Alpha-Hover": "--bg-states-transparent-alpha-hover",
+          "Transparent_Alpha-Pressed": "--bg-states-transparent-alpha-pressed",
+          "On_color-Hover": "--bg-states-on-color-hover",
+          "On_color-Pressed": "--bg-states-on-color-pressed",
+          "Page_BG-Hover": "--bg-states-page-bg-hover",
+          "Page_BG-Pressed": "--bg-states-page-bg-pressed",
+          "Button_Group-Hover": "--bg-states-button-group-hover",
+          "Button_Group-Pressed": "--bg-states-button-group-pressed",
+          "Disabled": "--bg-states-disabled",
+          "Focused": "--bg-states-focused"
+        },
+        "Special": {
+          "Primary_Shadow": "--special-primary-shadow",
+          "Secondary_Shadow": "--special-secondary-shadow",
+          "Shadow_01": "--special-shadow-01",
+          "Shadow_02": "--special-shadow-02"
+        }
+      },
+      "Dark": {
+        "Text": {
+          "Primary": "--text-primary",
+          "Secondary": "--text-secondary",
+          "Tertiary": "--text-tertiary",
+          "On_Color": "--text-on-color",
+          "Brand_Primary": "--text-brand-primary",
+          "Brand_Secondary": "--text-brand-secondary",
+          "Brand_Secondary_Contrast": "--text-brand-secondary-contrast",
+          "Warning": "--text-warning",
+          "Warning_Contrast": "--text-warning-contrast",
+          "Error": "--text-error",
+          "Error_Contrast": "--text-error-contrast",
+          "Success": "--text-success",
+          "Success_Contrast": "--text-success-contrast",
+          "Primary_Fixed": "--text-primary-fixed",
+          "On_Color_Fixed": "--text-on-color-fixed",
+          "Disabled": "--text-disabled",
+          "Link": "--text-link",
+          "Link_Hover": "--text-link-hover"
+        },
+        "Bg": {
+          "BG": "--bg-bg",
+          "BG_Secondary": "--bg-bg-secondary",
+          "Content": "--bg-content",
+          "Brand_Primary_00": "--bg-brand-primary-00",
+          "Brand_Primary_01": "--bg-brand-primary-01",
+          "Brand_Primary_02": "--bg-brand-primary-02",
+          "Brand_Primary_03": "--bg-brand-primary-03",
+          "Brand_Primary_04": "--bg-brand-primary-04",
+          "Brand_Secondary_01": "--bg-brand-secondary-01",
+          "Brand_Secondary_02": "--bg-brand-secondary-02",
+          "Brand_Secondary_03": "--bg-brand-secondary-03",
+          "Brand_Secondary_04": "--bg-brand-secondary-04",
+          "Focused_01": "--bg-focused-01",
+          "Focused_02": "--bg-focused-02",
+          "Warning_light": "--bg-warning-light",
+          "Warning": "--bg-warning",
+          "Warning_contrast": "--bg-warning-contrast",
+          "Error_light": "--bg-error-light",
+          "Error": "--bg-error",
+          "Error_contrast": "--bg-error-contrast",
+          "Success_light": "--bg-success-light",
+          "Success": "--bg-success",
+          "Success_contrast": "--bg-success-contrast",
+          "Base_Alpha_01": "--bg-base-alpha-01",
+          "Base_Alpha_02": "--bg-base-alpha-02",
+          "Base_Alpha_03": "--bg-base-alpha-03",
+          "Base_Alpha_04": "--bg-base-alpha-04",
+          "Base_Alpha_05": "--bg-base-alpha-05",
+          "Base_01": "--bg-base-01",
+          "Base_02": "--bg-base-02",
+          "Base_03": "--bg-base-03",
+          "Base_04": "--bg-base-04",
+          "Base_05": "--bg-base-05",
+          "Base_06": "--bg-base-06",
+          "Contrast_Alpha_01": "--bg-contrast-alpha-01",
+          "Contrast_Alpha_02": "--bg-contrast-alpha-02",
+          "Contrast_Alpha_03": "--bg-contrast-alpha-03",
+          "Contrast_Alpha_04": "--bg-contrast-alpha-04",
+          "Contrast_Alpha_05": "--bg-contrast-alpha-05",
+          "Contrast_01": "--bg-contrast-01",
+          "Contrast_02": "--bg-contrast-02",
+          "Contrast_03": "--bg-contrast-03",
+          "Contrast_04": "--bg-contrast-04",
+          "Contrast_05": "--bg-contrast-05",
+          "Contrast_06": "--bg-contrast-06"
+        },
+        "Stroke": {
+          "Border": "--stroke-border",
+          "Border_Disabled": "--stroke-border-disabled",
+          "Border_On_color": "--stroke-border-on-color",
+          "Divider": "--stroke-divider",
+          "Divider_Accent": "--stroke-divider-accent",
+          "Brand_Primary_Transparent": "--stroke-brand-primary-transparent",
+          "Brand_Primary_Alt": "--stroke-brand-primary-alt",
+          "Brand_Primary": "--stroke-brand-primary",
+          "Brand_Secondary": "--stroke-brand-secondary",
+          "Warning": "--stroke-warning",
+          "Error": "--stroke-error",
+          "Success": "--stroke-success",
+          "Link": "--stroke-link",
+          "Link_Hover": "--stroke-link-hover",
+          "Focused": "--stroke-focused"
+        },
+        "Int_bg": {
+          "Brand_Primary": "--int-bg-brand-primary",
+          "Brand_Primary_Alt": "--int-bg-brand-primary-alt",
+          "Brand_Primary_Alpha": "--int-bg-brand-primary-alpha",
+          "Brand_Secondary": "--int-bg-brand-secondary",
+          "Brand_Secondary_Alt": "--int-bg-brand-secondary-alt",
+          "Brand_Secondary_Alpha": "--int-bg-brand-secondary-alpha",
+          "Warning": "--int-bg-warning",
+          "Warning_Alt": "--int-bg-warning-alt",
+          "Warning_Alpha": "--int-bg-warning-alpha",
+          "Error": "--int-bg-error",
+          "Error_Alt": "--int-bg-error-alt",
+          "Error_Alpha": "--int-bg-error-alpha",
+          "Success": "--int-bg-success",
+          "Success_Alt": "--int-bg-success-alt",
+          "Success_Alpha": "--int-bg-success-alpha",
+          "Secondary_Alpha": "--int-bg-secondary-alpha",
+          "Transparent_Alpha": "--int-bg-transparent-alpha",
+          "On_color": "--int-bg-on-color",
+          "Page_BG": "--int-bg-page-bg",
+          "Button_Group": "--int-bg-button-group"
+        },
+        "Bg_states": {
+          "Brand_Primary-Hover": "--bg-states-brand-primary-hover",
+          "Brand_Primary-Pressed": "--bg-states-brand-primary-pressed",
+          "Brand_Primary_Alt-Hover": "--bg-states-brand-primary-alt-hover",
+          "Brand_Primary_Alt-Pressed": "--bg-states-brand-primary-alt-pressed",
+          "Brand_Primary_Alpha-Hover": "--bg-states-brand-primary-alpha-hover",
+          "Brand_Primary_Alpha-Pressed": "--bg-states-brand-primary-alpha-pressed",
+          "Brand_Secondary-Hover": "--bg-states-brand-secondary-hover",
+          "Brand_Secondary-Pressed": "--bg-states-brand-secondary-pressed",
+          "Brand_Secondary_Alt-Hover": "--bg-states-brand-secondary-alt-hover",
+          "Brand_Secondary_Alt-Pressed": "--bg-states-brand-secondary-alt-pressed",
+          "Brand_Secondary_Alpha-Hover": "--bg-states-brand-secondary-alpha-hover",
+          "Brand_Secondary_Alpha-Pressed": "--bg-states-brand-secondary-alpha-pressed",
+          "Warning-Hover": "--bg-states-warning-hover",
+          "Warning-Pressed": "--bg-states-warning-pressed",
+          "Warning_Alt-Hover": "--bg-states-warning-alt-hover",
+          "Warning_Alt-Pressed": "--bg-states-warning-alt-pressed",
+          "Warning_Alpha-Hover": "--bg-states-warning-alpha-hover",
+          "Warning_Alpha-Pressed": "--bg-states-warning-alpha-pressed",
+          "Error-Hover": "--bg-states-error-hover",
+          "Error-Pressed": "--bg-states-error-pressed",
+          "Error_Alt-Hover": "--bg-states-error-alt-hover",
+          "Error_Alt-Pressed": "--bg-states-error-alt-pressed",
+          "Error_Alpha-Hover": "--bg-states-error-alpha-hover",
+          "Error_Alpha-Pressed": "--bg-states-error-alpha-pressed",
+          "Success-Hover": "--bg-states-success-hover",
+          "Success-Pressed": "--bg-states-success-pressed",
+          "Success_Alt-Hover": "--bg-states-success-alt-hover",
+          "Success_Alt-Pressed": "--bg-states-success-alt-pressed",
+          "Success_Alpha-Hover": "--bg-states-success-alpha-hover",
+          "Success_Alpha-Pressed": "--bg-states-success-alpha-pressed",
+          "Secondary_Alpha-Hover": "--bg-states-secondary-alpha-hover",
+          "Secondary_Alpha-Pressed": "--bg-states-secondary-alpha-pressed",
+          "Transparent_Alpha-Hover": "--bg-states-transparent-alpha-hover",
+          "Transparent_Alpha-Pressed": "--bg-states-transparent-alpha-pressed",
+          "On_color-Hover": "--bg-states-on-color-hover",
+          "On_color-Pressed": "--bg-states-on-color-pressed",
+          "Page_BG-Hover": "--bg-states-page-bg-hover",
+          "Page_BG-Pressed": "--bg-states-page-bg-pressed",
+          "Button_Group-Hover": "--bg-states-button-group-hover",
+          "Button_Group-Pressed": "--bg-states-button-group-pressed",
+          "Disabled": "--bg-states-disabled",
+          "Focused": "--bg-states-focused"
+        },
+        "Special": {
+          "Primary_Shadow": "--special-primary-shadow",
+          "Secondary_Shadow": "--special-secondary-shadow",
+          "Shadow_01": "--special-shadow-01",
+          "Shadow_02": "--special-shadow-02"
+        }
+      }
+    }
+  },
+  "sharedStyles": {
+    "ControlBox": {
+      "description": "Общая обёртка для Input, Select, Textarea, Datepicker и др.",
+      "sizes": {
+        "L": {
+          "minHeight": "56px",
+          "borderRadius": "16px"
+        },
+        "XS": {
+          "minHeight": "32px",
+          "borderRadius": "12px"
+        }
+      },
+      "border": "1px solid var(--stroke-border)",
+      "background": {
+        "default": "var(--bg-content)",
+        "hover": "var(--bg-base-02)",
+        "error": "var(--int-bg-error-alt)",
+        "disabled": "var(--bg-states-disabled)"
+      },
+      "focusBorder": "var(--stroke-brand-primary)",
+      "errorBorder": "var(--stroke-error)"
+    }
+  },
+  "components": {
+    "accessories": [
+      {
+        "name": "Alert",
+        "description": "Карточка уведомления с цветной акцентной полосой слева",
+        "visual": {
+          "padding": "24px",
+          "borderRadius": "var(--rounding-other-ds-xl)",
+          "shadow": "0px 8px 16px var(--special-shadow-02)",
+          "accentBar": "4px left border",
+          "width": "100% mobile, 384px tablet+",
+          "marginBottom": "20px"
+        },
+        "variants": {
+          "default": {
+            "background": "var(--bg-bg)",
+            "accent": "var(--int-bg-brand-primary)"
+          },
+          "success": {
+            "background": "var(--int-bg-success-alt)",
+            "accent": "var(--int-bg-success)"
+          },
+          "warning": {
+            "background": "var(--int-bg-warning-alt)",
+            "accent": "var(--int-bg-warning)"
+          },
+          "error": {
+            "background": "var(--int-bg-error-alt)",
+            "accent": "var(--int-bg-error)"
+          },
+          "brand-primary": {
+            "background": "var(--bg-brand-primary-01)",
+            "accent": "var(--int-bg-brand-primary)"
+          }
+        },
+        "states": [
+          "autoClose",
+          "withCloseButton",
+          "withIcon",
+          "withButtons"
+        ],
+        "keyProps": [
+          "variant",
+          "shouldRenderCloseButton",
+          "icon",
+          "buttons"
+        ],
+        "icons": {
+          "byVariant": {
+            "default": "Info.svg",
+            "brand-primary": "Info.svg",
+            "success": "CheckCircle.svg",
+            "warning": "AlertTriangle.svg",
+            "error": "AlertCircle.svg"
+          },
+          "close": "X.svg"
+        }
+      },
+      {
+        "name": "Badge",
+        "description": "Индикатор: точка, точка с подписью или ярлык-шорткат",
+        "visual": {
+          "dot": {
+            "sizeS": "8px",
+            "sizeM": "12px",
+            "borderRadius": "50%"
+          },
+          "shortcut": {
+            "borderRadius": "var(--rounding-other-ds-s)",
+            "paddingS": "4px 6px",
+            "paddingM": "6px 8px"
+          }
+        },
+        "types": [
+          "dot",
+          "label-dot",
+          "shortcut"
+        ],
+        "variants": [
+          "default",
+          "brand-primary",
+          "brand-primary-alt",
+          "warning",
+          "warning-alt",
+          "error",
+          "error-alt",
+          "success",
+          "success-alt",
+          "disabled",
+          "disabled-stroke",
+          "on-color"
+        ],
+        "sizes": [
+          "s",
+          "m"
+        ],
+        "keyProps": [
+          "type",
+          "variant",
+          "size",
+          "label"
+        ]
+      },
+      {
+        "name": "BaseInput",
+        "description": "Базовое поле ввода без обёртки ControlBox",
+        "visual": {
+          "font": "Inter 15px/20px",
+          "placeholder": "var(--text-tertiary)",
+          "border": "none",
+          "background": "transparent"
+        },
+        "keyProps": [
+          "inherits ControlBox styling from parent controls"
+        ]
+      },
+      {
+        "name": "BaseSelect",
+        "description": "Базовый выпадающий список",
+        "visual": {
+          "dropdownItem": {
+            "padding": "10px 16px",
+            "borderRadius": "var(--rounding-interactive-ds-m)",
+            "marginBottom": "4px"
+          },
+          "itemBackground": {
+            "default": "var(--bg-bg)",
+            "hover": "var(--bg-base-02)",
+            "selected": "var(--int-bg-brand-primary-alt)"
+          },
+          "focusOutline": "2px solid var(--bg-states-focused)"
+        },
+        "keyProps": [
+          "valueFieldWidth",
+          "isSelectedItem",
+          "hovered",
+          "isDisabled"
+        ],
+        "icons": {
+          "chevron": "ChevronDown.svg"
+        }
+      },
+      {
+        "name": "Button",
+        "description": "Основная кнопка действия",
+        "visual": {
+          "sizes": {
+            "xxs": {
+              "height": "24px",
+              "padding": "4px 6px",
+              "iconOnly": "24x24px",
+              "borderRadius": "8px"
+            },
+            "xs": {
+              "height": "32px",
+              "padding": "6px 12px",
+              "iconOnly": "32x32px",
+              "borderRadius": "12px"
+            },
+            "s": {
+              "height": "40px",
+              "padding": "10px 16px",
+              "iconOnly": "40x40px",
+              "borderRadius": "12px"
+            },
+            "m": {
+              "height": "48px",
+              "padding": "14px 24px",
+              "iconOnly": "48x48px",
+              "borderRadius": "16px"
+            },
+            "l": {
+              "height": "56px",
+              "padding": "18px 32px",
+              "iconOnly": "56x56px",
+              "borderRadius": "16px"
+            }
+          },
+          "typography": "body (caption for xxs)",
+          "focus": "2px solid var(--bg-states-focused)",
+          "transition": "0.25s color/background/border",
+          "iconGap": "8px"
+        },
+        "variants": [
+          "primary",
+          "primary-alt",
+          "secondary",
+          "tertiary",
+          "transparent",
+          "brand-secondary",
+          "error",
+          "error-alt",
+          "warning",
+          "warning-alt",
+          "success",
+          "success-alt",
+          "on-color",
+          "page-bg",
+          "white",
+          "custom",
+          "control-icon"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "focus-visible",
+          "active",
+          "disabled",
+          "loading"
+        ],
+        "keyProps": [
+          "variant",
+          "size",
+          "icon",
+          "loading",
+          "disabled",
+          "color",
+          "textColor",
+          "hoverColor",
+          "autoWidth",
+          "justifyContent",
+          "iconPosition"
+        ],
+        "icons": {
+          "loading": "Loader.svg",
+          "iconProp": "любой файл из icons.catalog"
+        }
+      },
+      {
+        "name": "LinkButton",
+        "description": "Кнопка, визуально оформленная как ссылка",
+        "visual": "Наследует стили Link — текстовая ссылка на элементе button",
+        "variants": [
+          "external",
+          "internal",
+          "pseudo",
+          "doc"
+        ],
+        "linkDecoration": [
+          "main",
+          "main-grey",
+          "light-grey",
+          "pseudo",
+          "pseudo-icon"
+        ],
+        "keyProps": [
+          "variant",
+          "linkDecoration",
+          "textVariant",
+          "iconSize",
+          "iconDocType",
+          "reverseColorMode",
+          "disabled"
+        ],
+        "icons": {
+          "external": "ExternalLink.svg",
+          "internal": "ChevronRight.svg",
+          "doc": "File/DocDocStroke.svg",
+          "pseudo": "ChevronDown.svg"
+        }
+      },
+      {
+        "name": "CurrencyFormatter",
+        "description": "Форматирование денежных сумм с настраиваемым отображением дробной части",
+        "visual": {
+          "base": "Typography wrapper, white-space: nowrap",
+          "fractionStyles": {
+            "default": "baseline",
+            "uplifted": "0.55em super, padding-left 3px",
+            "uplifted-underscored": "uplifted + bottom border"
+          }
+        },
+        "keyProps": [
+          "type",
+          "variant",
+          "fractionPartStyle",
+          "integerPartStyle"
+        ]
+      },
+      {
+        "name": "DecoratedIcon",
+        "description": "Иконка в цветном контейнере с опциональной тенью",
+        "visual": {
+          "containerSizes": {
+            "xs": "22px",
+            "s": "32px",
+            "m": "44px",
+            "l": "52px",
+            "xl": "64px"
+          },
+          "borderRadius": {
+            "S": "8px",
+            "M": "12px",
+            "L": "16px",
+            "XL": "24px"
+          },
+          "shadow": "offset shadow using variant color"
+        },
+        "variants": [
+          "brand-primary",
+          "secondary",
+          "transparent",
+          "success",
+          "warning",
+          "error",
+          "brand-secondary",
+          "alt-success",
+          "alt-warning",
+          "alt-error",
+          "invisible"
+        ],
+        "sizes": [
+          "xs",
+          "s",
+          "m",
+          "l",
+          "xl"
+        ],
+        "keyProps": [
+          "variant",
+          "size",
+          "shadow"
+        ],
+        "icons": {
+          "iconProp": "любой файл из icons.catalog"
+        }
+      },
+      {
+        "name": "Divider",
+        "description": "Разделительная линия с опциональным текстом",
+        "visual": {
+          "line": "1px solid var(--stroke-border)",
+          "contentMargin": "12px horizontal, 4px vertical"
+        },
+        "orientations": [
+          "horizontal",
+          "vertical"
+        ],
+        "keyProps": [
+          "orientation",
+          "textPosition",
+          "children"
+        ]
+      },
+      {
+        "name": "DropdownMenu",
+        "description": "Выпадающее контекстное меню",
+        "visual": {
+          "panel": {
+            "background": "var(--bg-bg)",
+            "borderRadius": "var(--rounding-other-ds-l)",
+            "padding": "8px",
+            "shadow": "0px 8px 16px var(--special-shadow-02)"
+          },
+          "item": {
+            "marginBottom": "4px",
+            "whiteSpace": "nowrap"
+          }
+        },
+        "keyProps": [
+          "items",
+          "position",
+          "renderItem"
+        ],
+        "icons": {
+          "chevron": "ChevronDown.svg"
+        }
+      },
+      {
+        "name": "Footer",
+        "description": "Подвал страницы",
+        "visual": {
+          "background": "var(--bg-base-alpha-02)",
+          "padding": "24px bottom mobile; 24px top + 48px bottom tablet+"
+        },
+        "keyProps": [
+          "mainLinks",
+          "custom content"
+        ]
+      },
+      {
+        "name": "Header",
+        "description": "Шапка страницы",
+        "visual": {
+          "height": "64px",
+          "padding": "0 8px",
+          "background": "var(--bg-bg)",
+          "shadow": "0px 1px 2px var(--special-shadow-02)"
+        },
+        "keyProps": [
+          "mainPageLink",
+          "partnerLogo",
+          "headerContent"
+        ],
+        "icons": {
+          "back": "HistoryBack.svg"
+        }
+      },
+      {
+        "name": "Link",
+        "description": "Текстовая ссылка",
+        "visual": {
+          "minHeight": "21px",
+          "typography": "inherits textVariant (body default)",
+          "colors": {
+            "main": "var(--text-link) → hover var(--text-link-hover) + underline",
+            "main-grey": "var(--text-primary) + underline on hover",
+            "light-grey": "var(--text-secondary) → primary on hover",
+            "pseudo": "dashed var(--text-secondary) → primary",
+            "disabled": "var(--text-disabled)"
+          },
+          "focus": "2px solid var(--bg-states-focused), radius 2px"
+        },
+        "variants": [
+          "external",
+          "internal",
+          "pseudo",
+          "doc"
+        ],
+        "keyProps": [
+          "variant",
+          "linkDecoration",
+          "textVariant",
+          "reverseColorMode",
+          "disabled",
+          "inlineLinkMode"
+        ],
+        "icons": {
+          "external": "ExternalLink.svg",
+          "internal": "ChevronRight.svg",
+          "doc": "File/DocDocStroke.svg"
+        }
+      },
+      {
+        "name": "List",
+        "description": "Маркированный или нумерованный список",
+        "visual": {
+          "item": "inline-block, margin-top 1px",
+          "badge": "margin-right 8px"
+        },
+        "types": [
+          "ordered",
+          "unordered"
+        ],
+        "keyProps": [
+          "type",
+          "items",
+          "captionTextVariant",
+          "badge"
+        ]
+      },
+      {
+        "name": "Loader",
+        "description": "Индикатор загрузки (спиннер или полноэкранный оверлей)",
+        "visual": {
+          "spinner": {
+            "animation": "rotation 0.8s linear infinite",
+            "defaultSize": 16
+          },
+          "messageBox": {
+            "padding": "24px 32px",
+            "borderRadius": "var(--rounding-other-ds-xl)",
+            "shadow": "standard",
+            "maxWidth": "384px",
+            "background": "var(--bg-bg)"
+          },
+          "fade": "full overlay"
+        },
+        "keyProps": [
+          "show",
+          "fullScreen",
+          "message",
+          "spinnerSize",
+          "colorScheme",
+          "isInControl",
+          "countdown"
+        ],
+        "icons": {
+          "spinner": "Loader.svg",
+          "spinnerAlt": "LoaderAlt.svg"
+        }
+      },
+      {
+        "name": "Notification",
+        "description": "Компактное inline-уведомление",
+        "visual": {
+          "padding": "16px (32px horizontal when horizontal layout on tablet+)",
+          "borderRadius": "var(--rounding-other-ds-l)",
+          "iconSize": "21x21px"
+        },
+        "variants": {
+          "default": {
+            "background": "var(--bg-bg)",
+            "border": "1px solid var(--stroke-border)",
+            "text": "var(--text-brand-primary)"
+          },
+          "warning": {
+            "background": "var(--int-bg-warning-alt)",
+            "text": "var(--text-warning)"
+          },
+          "error": {
+            "background": "var(--int-bg-error-alt)",
+            "text": "var(--text-error)"
+          },
+          "success": {
+            "background": "var(--int-bg-success-alt)",
+            "text": "var(--text-success)"
+          },
+          "primary": {
+            "background": "var(--int-bg-brand-primary)",
+            "text": "var(--text-on-color)"
+          }
+        },
+        "layouts": [
+          "horizontal",
+          "vertical"
+        ],
+        "keyProps": [
+          "variant",
+          "type",
+          "buttonText"
+        ],
+        "icons": {
+          "byVariant": {
+            "default": "Info.svg",
+            "warning": "AlertTriangle.svg",
+            "error": "AlertCircle.svg",
+            "success": "CheckCircle.svg",
+            "primary": "Info.svg"
+          }
+        }
+      },
+      {
+        "name": "Portal",
+        "description": "Портал для рендера вне DOM-иерархии (дропдауны, тултипы)",
+        "visual": {
+          "position": "absolute",
+          "maxWidth": "calc(100% - 2px)",
+          "animations": [
+            "dropdown-top",
+            "dropdown-bottom",
+            "upscale-from-center",
+            "opacity"
+          ],
+          "duration": "0.25s ease-in-out"
+        },
+        "keyProps": [
+          "animation",
+          "renderMode",
+          "top",
+          "left",
+          "width",
+          "height",
+          "zIndex"
+        ]
+      },
+      {
+        "name": "ProgressBar",
+        "description": "Линейный индикатор прогресса",
+        "visual": {
+          "height": "4px (24px with percentage)",
+          "borderRadius": "full",
+          "track": "var(--bg-base-alpha-02) or var(--bg-contrast-alpha-04)",
+          "fill": "success/error/warning token"
+        },
+        "variants": [
+          "success",
+          "error",
+          "warning"
+        ],
+        "colorSchemes": [
+          "default",
+          "onColor"
+        ],
+        "keyProps": [
+          "variant",
+          "percent",
+          "showPercentage",
+          "colorScheme"
+        ]
+      },
+      {
+        "name": "Quote",
+        "description": "Блок цитаты с акцентной полосой или рамкой",
+        "visual": {
+          "borderRadius": "var(--rounding-other-ds-l)",
+          "types": {
+            "default": "2px left accent border, radius 0 L L 0",
+            "bordered": "1px solid border, full radius"
+          },
+          "padding": {
+            "medium/default": "8px 8px 8px 18px",
+            "large/default": "16px 16px 16px 18px",
+            "bordered": "12px/16px"
+          }
+        },
+        "variants": [
+          "default",
+          "brand-primary",
+          "success",
+          "warning",
+          "error"
+        ],
+        "sizes": [
+          "medium",
+          "large"
+        ],
+        "keyProps": [
+          "variant",
+          "type",
+          "size",
+          "widthCalc"
+        ]
+      },
+      {
+        "name": "RevealingTimer",
+        "description": "Таймер обратного отсчёта (внешний вид через render-пропсы)",
+        "visual": "Без собственных стилей — рендер через Typography",
+        "keyProps": [
+          "time",
+          "withDimensions",
+          "renderCountdown",
+          "renderContent"
+        ]
+      },
+      {
+        "name": "Skeleton",
+        "description": "Плейсхолдер загрузки с анимацией мерцания",
+        "visual": {
+          "borderRadius": "var(--rounding-other-ds-l)",
+          "background": "var(--bg-base-alpha-02) or var(--bg-contrast-alpha-03)",
+          "animation": "blink 2.5s ease-in-out, opacity 0.4 at 50%"
+        },
+        "colorSchemes": [
+          "default",
+          "onColor"
+        ],
+        "keyProps": [
+          "height",
+          "withLoaderIcon",
+          "colorScheme"
+        ],
+        "icons": {
+          "loader": "LoaderAlt.svg"
+        }
+      },
+      {
+        "name": "StepsProgressBar",
+        "description": "Пошаговый индикатор прогресса",
+        "visual": {
+          "badgeSizes": {
+            "smallBadge": "24px circle",
+            "mediumBadge": "32px",
+            "bigBadge": "40px"
+          },
+          "badgeRadius": {
+            "smallBadge": "50%",
+            "other": "var(--rounding-other-ds-m)"
+          },
+          "connector": "var(--stroke-border) or brand-primary for smallBadge",
+          "colors": {
+            "active": "var(--int-bg-brand-primary)",
+            "completed": "var(--int-bg-success)",
+            "disabled": "var(--bg-base-02)",
+            "warning": "var(--int-bg-warning)"
+          }
+        },
+        "variants": [
+          "smallBadge",
+          "mediumBadge",
+          "bigBadge"
+        ],
+        "directions": [
+          "horizontal",
+          "vertical"
+        ],
+        "keyProps": [
+          "variant",
+          "direction",
+          "steps",
+          "currentStep"
+        ],
+        "icons": {
+          "note": "Иконки шагов — в компоненте Step (поле icons.byStatus)"
+        }
+      },
+      {
+        "name": "Step",
+        "description": "Один шаг в StepsProgressBar",
+        "visual": "Наследует стили badge из StepsProgressBar",
+        "keyProps": [
+          "variant",
+          "titleDirection",
+          "status",
+          "title"
+        ],
+        "icons": {
+          "byStatus": {
+            "completed": "Check.svg",
+            "active": null,
+            "disabled": null,
+            "warning": "AlertTriangle.svg"
+          },
+          "size": "16–20px по центру badge"
+        }
+      },
+      {
+        "name": "Tag",
+        "description": "Метка/тег с pill-формой",
+        "visual": {
+          "borderRadius": "var(--rounding-interactive-ds-full)",
+          "padding": {
+            "xs": "0 7px",
+            "s": "4px 7px",
+            "m": "6px 11px",
+            "l": "10px 15px"
+          },
+          "border": "1px solid (none for brand variants)",
+          "transition": "0.25s"
+        },
+        "variants": {
+          "primary": {
+            "background": "var(--bg-bg)",
+            "border": "var(--stroke-border)"
+          },
+          "brand-primary": {
+            "background": "var(--int-bg-brand-primary)",
+            "border": "none"
+          },
+          "brand-secondary": {
+            "background": "var(--int-bg-brand-secondary-alt)",
+            "border": "none"
+          },
+          "success": {
+            "background": "var(--int-bg-success-alt)",
+            "border": "var(--stroke-success)"
+          },
+          "warning": {
+            "background": "var(--int-bg-warning-alt)",
+            "border": "var(--stroke-warning)"
+          },
+          "error": {
+            "background": "var(--int-bg-error-alt)",
+            "border": "var(--stroke-error)"
+          }
+        },
+        "sizes": [
+          "xs",
+          "s",
+          "m",
+          "l"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "disabled",
+          "clickable"
+        ],
+        "keyProps": [
+          "variant",
+          "size",
+          "disabled",
+          "onLabelClick",
+          "margins",
+          "Icon"
+        ],
+        "icons": {
+          "iconProp": "любой файл из icons.catalog"
+        }
+      },
+      {
+        "name": "Tooltip",
+        "description": "Всплывающая подсказка",
+        "visual": {
+          "trigger": "20x20px (100% in tableCellMode)",
+          "content": {
+            "background": "var(--bg-content)",
+            "borderRadius": "var(--rounding-other-ds-m)",
+            "padding": "8px",
+            "shadow": "standard",
+            "minWidth": "100px",
+            "maxWidth": "288px"
+          },
+          "focus": "2px solid var(--bg-states-focused), radius 10px"
+        },
+        "keyProps": [
+          "content",
+          "position",
+          "tableCellMode",
+          "iconVariant"
+        ],
+        "icons": {
+          "trigger": "HelpCircleDark.svg",
+          "triggerInfo": "Info.svg"
+        }
+      },
+      {
+        "name": "Typography",
+        "description": "Текстовый компонент с типографической шкалой",
+        "visual": "См. designTokens.typography; цвет через var(--text-{variant})",
+        "types": [
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "subtitle",
+          "body",
+          "caption",
+          "micro",
+          "custom"
+        ],
+        "variants": [
+          "primary",
+          "primary-fixed",
+          "secondary",
+          "tertiary",
+          "on-color",
+          "on-color-fixed",
+          "brand-primary",
+          "brand-secondary",
+          "warning",
+          "warning-contrast",
+          "error",
+          "error-contrast",
+          "success",
+          "success-contrast",
+          "disabled"
+        ],
+        "keyProps": [
+          "type",
+          "variant",
+          "bold",
+          "color",
+          "size",
+          "height",
+          "family",
+          "htmlTag"
+        ]
+      }
+    ],
+    "controls": [
+      {
+        "name": "Checkbox",
+        "description": "Чекбокс или переключатель (toggle)",
+        "visual": {
+          "checkbox": {
+            "size": "20x20px",
+            "borderRadius": "var(--rounding-interactive-ds-xs)",
+            "border": "1px solid"
+          },
+          "toggle": {
+            "size": "36x20px",
+            "borderRadius": "full",
+            "dot": "16px circle"
+          },
+          "checkedBackground": "var(--int-bg-brand-primary)",
+          "errorBackground": "var(--int-bg-error-alt)"
+        },
+        "variants": [
+          "default",
+          "toggle"
+        ],
+        "colorSchemes": [
+          "default",
+          "onColor"
+        ],
+        "states": [
+          "checked",
+          "disabled",
+          "error",
+          "hover",
+          "focus"
+        ],
+        "keyProps": [
+          "variant",
+          "colorScheme",
+          "checked",
+          "disabled",
+          "errors"
+        ],
+        "icons": {
+          "checked": "Check.svg"
+        }
+      },
+      {
+        "name": "CheckboxesGroup",
+        "description": "Группа чекбоксов",
+        "visual": "Layout-обёртка; наследует Checkbox + BasicControlWrapper",
+        "directions": [
+          "row",
+          "column"
+        ],
+        "keyProps": [
+          "items",
+          "direction",
+          "variant",
+          "colorScheme"
+        ]
+      },
+      {
+        "name": "Input",
+        "description": "Текстовое поле ввода",
+        "visual": "ControlBox: L=56px/XS=32px min-height, radius 16px/12px, border var(--stroke-border), focus brand-primary, error alt bg",
+        "keyProps": [
+          "size",
+          "status",
+          "errors",
+          "disabled",
+          "locked",
+          "caption",
+          "mask",
+          "type"
+        ],
+        "icons": {
+          "search": "Search.svg",
+          "clear": "X.svg"
+        }
+      },
+      {
+        "name": "Textarea",
+        "description": "Многострочное поле ввода",
+        "visual": {
+          "wrapper": "ControlBox styling",
+          "textarea": {
+            "minHeight": "52px",
+            "font": "Inter 15px/20px",
+            "placeholder": "var(--text-tertiary)",
+            "scrollbar": "8px"
+          }
+        },
+        "keyProps": [
+          "height",
+          "hasMaxHeightLimit",
+          "disabled",
+          "locked"
+        ]
+      },
+      {
+        "name": "Select",
+        "description": "Выпадающий список выбора",
+        "visual": "ControlBox + BaseSelect dropdown; selected item brand-primary-alt bg",
+        "keyProps": [
+          "size",
+          "items",
+          "value",
+          "errors",
+          "status",
+          "multi"
+        ],
+        "icons": {
+          "chevron": "ChevronDown.svg",
+          "clear": "X.svg"
+        }
+      },
+      {
+        "name": "CombinedSelect",
+        "description": "Комбинированное поле: текст + select",
+        "visual": "BaseSelect + ControlBox",
+        "keyProps": [
+          "size",
+          "selectItems",
+          "inputValue",
+          "errors"
+        ]
+      },
+      {
+        "name": "CombinedSelectAsync",
+        "description": "CombinedSelect с асинхронной подгрузкой опций",
+        "visual": "Аналогично CombinedSelect + состояние загрузки",
+        "keyProps": [
+          "loadOptions",
+          "size",
+          "errors"
+        ]
+      },
+      {
+        "name": "DadataSelect",
+        "description": "Select с подсказками DaData API",
+        "visual": "Наследует Select/ControlBox",
+        "keyProps": [
+          "type",
+          "service",
+          "creatable",
+          "size"
+        ]
+      },
+      {
+        "name": "AddressDadata",
+        "description": "DaData: автодополнение адреса",
+        "visual": "Обёртка DadataSelect",
+        "keyProps": [
+          "modelMapping",
+          "onChange",
+          "value"
+        ]
+      },
+      {
+        "name": "BankDadata",
+        "description": "DaData: автодополнение банка",
+        "visual": "Обёртка DadataSelect",
+        "keyProps": [
+          "modelMapping",
+          "onChange"
+        ]
+      },
+      {
+        "name": "FioDadata",
+        "description": "DaData: автодополнение ФИО",
+        "visual": "Обёртка DadataSelect",
+        "keyProps": [
+          "modelMapping",
+          "onChange"
+        ]
+      },
+      {
+        "name": "DadataSelectUiCoreAdaptation",
+        "description": "Адаптер DadataSelect для IRIS",
+        "visual": "Аналогично Select",
+        "keyProps": [
+          "value",
+          "onChange"
+        ]
+      },
+      {
+        "name": "Datepicker",
+        "description": "Выбор даты с календарём",
+        "visual": {
+          "input": "ControlBox",
+          "calendar": {
+            "padding": "30px 24px 24px",
+            "background": "var(--bg-bg)",
+            "borderRadius": "var(--rounding-other-ds-l)",
+            "shadow": "0px 8px 16px rgba(91,104,113,0.24)",
+            "width": "300px/576px"
+          },
+          "dayButton": {
+            "borderRadius": "var(--rounding-interactive-ds-m)",
+            "selected": "var(--int-bg-brand-primary)",
+            "range": "alt-hover bg",
+            "disabled": "error alt"
+          }
+        },
+        "keyProps": [
+          "isRange",
+          "numberOfMonths",
+          "size",
+          "errors",
+          "monthSelectorVariant"
+        ],
+        "icons": {
+          "calendar": "Calendar.svg",
+          "chevronPrev": "ChevronLeft.svg",
+          "chevronNext": "ChevronRight.svg"
+        }
+      },
+      {
+        "name": "FileUploader",
+        "description": "Загрузка файлов drag-and-drop",
+        "visual": {
+          "dropzone": {
+            "padding": "16px/24px tablet",
+            "borderRadius": "var(--rounding-interactive-ds-l)",
+            "border": "1px dashed var(--stroke-border)"
+          },
+          "thumbs": "превью изображений/документов с кнопками управления"
+        },
+        "keyProps": [
+          "variant",
+          "maxFiles",
+          "accept",
+          "errors"
+        ],
+        "icons": {
+          "dropzone": "UploadCloud.svg",
+          "attach": "File/Paperclip.svg",
+          "file": "File/File.svg",
+          "remove": "X.svg"
+        }
+      },
+      {
+        "name": "FileUploaderUiCoreAdaptation",
+        "description": "Адаптер FileUploader для IRIS",
+        "visual": "Аналогично FileUploader",
+        "keyProps": [
+          "files",
+          "onChange"
+        ]
+      },
+      {
+        "name": "RadioGroup",
+        "description": "Группа радиокнопок",
+        "visual": {
+          "default": "radio circle в IconBox",
+          "filled": {
+            "background": "status-tinted or var(--bg-base-alpha-02)",
+            "borderRadius": "var(--rounding-base-l)",
+            "padding": "12px 16px"
+          }
+        },
+        "variants": [
+          "default",
+          "filled"
+        ],
+        "colorSchemes": [
+          "default",
+          "onColor"
+        ],
+        "statuses": [
+          "success",
+          "warning",
+          "error"
+        ],
+        "keyProps": [
+          "variant",
+          "colorScheme",
+          "status",
+          "items",
+          "direction"
+        ]
+      },
+      {
+        "name": "SelectButton",
+        "description": "Сегментированный переключатель",
+        "visual": {
+          "container": {
+            "border": "1px solid var(--stroke-border)",
+            "borderRadius": "var(--rounding-interactive-ds-l)",
+            "background": "var(--bg-bg)"
+          },
+          "item": {
+            "minHeight": "54px",
+            "selector": "var(--int-bg-button-group) sliding highlight"
+          },
+          "checkedText": "var(--text-on-color-fixed)"
+        },
+        "directions": [
+          "row",
+          "column"
+        ],
+        "keyProps": [
+          "direction",
+          "items",
+          "value",
+          "errors",
+          "disabled",
+          "isGroupMode"
+        ]
+      },
+      {
+        "name": "SelectButtonGroup",
+        "description": "Группа SelectButton с общей анимацией селектора",
+        "visual": "SelectButton в group mode",
+        "keyProps": [
+          "items",
+          "value",
+          "direction",
+          "errors"
+        ]
+      }
+    ],
+    "wrappers": [
+      {
+        "name": "AlertContainer",
+        "description": "Контейнер для стека Alert-уведомлений",
+        "visual": {
+          "position": "fixed top-right",
+          "offset": "16px mobile, configurable tablet+",
+          "zIndex": 1100,
+          "animation": "slide-out-right on exit, fade on enter"
+        },
+        "keyProps": [
+          "position",
+          "top",
+          "right",
+          "withAnimation"
+        ]
+      },
+      {
+        "name": "Card",
+        "description": "Карточка с заголовком и опциональным уведомлением",
+        "visual": {
+          "padding": "24px mobile, 32px tablet+",
+          "border": "1px solid var(--stroke-border)",
+          "borderRadius": "var(--rounding-other-ds-xxl)",
+          "notification": "attached Notification below with connector pseudo-border"
+        },
+        "keyProps": [
+          "header",
+          "Icon",
+          "notificationText",
+          "notificationVariant",
+          "headerButtonVariant"
+        ],
+        "icons": {
+          "iconProp": "любой файл из icons.catalog"
+        }
+      },
+      {
+        "name": "CardLight",
+        "description": "Облегчённая карточка",
+        "visual": {
+          "borderRadius": "var(--rounding-other-ds-xl)",
+          "background": "var(--bg-bg) or var(--int-bg-secondary-alpha) when grey",
+          "border": "1px solid var(--stroke-border) or none when grey",
+          "padding": "configurable per breakpoint"
+        },
+        "keyProps": [
+          "bgStyle",
+          "paddingMobile",
+          "paddingTablet",
+          "paddingDesktop",
+          "Icon"
+        ],
+        "icons": {
+          "iconProp": "любой файл из icons.catalog"
+        }
+      },
+      {
+        "name": "ModalWindow",
+        "description": "Модальное окно",
+        "visual": {
+          "overlay": "var(--bg-base-alpha-05) + blur(8px), z-index 1000",
+          "content": {
+            "background": "var(--bg-bg)",
+            "borderRadius": "var(--rounding-other-ds-xxl)",
+            "color": "var(--text-primary)",
+            "maxHeight": "calc(100vh - 32px/96px)"
+          },
+          "padding": "16px top mobile, 24px tablet+"
+        },
+        "controlsVariants": [
+          "scroll",
+          "sticky"
+        ],
+        "keyProps": [
+          "maxWidth",
+          "paddingSize",
+          "controlsVariant",
+          "header",
+          "visible"
+        ],
+        "icons": {
+          "close": "X.svg"
+        }
+      },
+      {
+        "name": "Panel",
+        "description": "Панель-контейнер с настраиваемыми границами и фоном",
+        "visual": {
+          "borderStyles": {
+            "full": "1px border + configurable radius",
+            "horizontal": "top border only",
+            "none": "no border",
+            "full-invisible": "transparent border"
+          },
+          "background": "var(--bg-bg), var(--bg-base-alpha-02), or transparent",
+          "padding": "configurable vertical/horizontal per breakpoint"
+        },
+        "borderStyles": [
+          "full",
+          "horizontal",
+          "none",
+          "full-invisible"
+        ],
+        "bgStyles": [
+          "white",
+          "grey",
+          "transparent"
+        ],
+        "keyProps": [
+          "borderStyle",
+          "bgStyle",
+          "roundingCategory",
+          "roundingSize",
+          "isCollapsible",
+          "inGrid"
+        ]
+      },
+      {
+        "name": "PhotoGallery",
+        "description": "Галерея изображений со слайдером",
+        "visual": {
+          "slider": "slick-based, padding-top 20px",
+          "thumbnails": "80x80px dots, margin 8px",
+          "modal": "full-screen gallery with blur overlay"
+        },
+        "keyProps": [
+          "images",
+          "initialSlide"
+        ]
+      },
+      {
+        "name": "Slider",
+        "description": "Карусель слайдов",
+        "visual": {
+          "default": {
+            "background": "var(--bg-bg-secondary)",
+            "borderRadius": "var(--rounding-other-ds-l)",
+            "padding": "20px",
+            "margin": "10px"
+          },
+          "sliderWithCards": {
+            "margin": "4-8px",
+            "overflow": "visible"
+          },
+          "dots": "8x8px, margin 6px"
+        },
+        "variants": [
+          "default",
+          "sliderWithCards"
+        ],
+        "keyProps": [
+          "variant",
+          "slidesToShow",
+          "inStories",
+          "header"
+        ]
+      },
+      {
+        "name": "Spoiler",
+        "description": "Раскрывающийся блок",
+        "visual": "Button для toggle + grid layout; ChevronDown icon rotates",
+        "keyProps": [
+          "buttonParams",
+          "buttonCols",
+          "closedButtonText",
+          "openedButtonText",
+          "defaultOpened"
+        ],
+        "icons": {
+          "collapsed": "ChevronDown.svg",
+          "expanded": "ChevronUp.svg"
+        }
+      },
+      {
+        "name": "Stories",
+        "description": "Stories-формат (как в соцсетях)",
+        "visual": {
+          "slider": "sliderWithCards variant",
+          "viewer": {
+            "maxWidth": "375px",
+            "progressBars": "animated fill",
+            "modalOverlay": true
+          }
+        },
+        "keyProps": [
+          "stories",
+          "showLogo",
+          "useSlideImgAsBackground",
+          "onClose"
+        ]
+      },
+      {
+        "name": "Table",
+        "description": "Таблица данных",
+        "visual": {
+          "font": "Inter body 15px/20px",
+          "rowHeight": {
+            "s": "40px",
+            "m": "48px"
+          },
+          "border": "1px solid var(--stroke-border) bottom on rows",
+          "rowBackground": {
+            "default": "var(--bg-content)",
+            "hover": "var(--bg-base-alpha-02)",
+            "disabled": "var(--bg-states-disabled)",
+            "expanded": "var(--bg-base-alpha-03)"
+          }
+        },
+        "keyProps": [
+          "rowHeight",
+          "clickable",
+          "disabled",
+          "sortable",
+          "pagination"
+        ]
+      },
+      {
+        "name": "Tabs",
+        "description": "Вкладки",
+        "visual": {
+          "tabHeader": {
+            "heights": "36-43px by size/type",
+            "padding": "5-24px",
+            "hoverUnderline": "2px var(--text-tertiary)"
+          },
+          "activeUnderline": "2px var(--text-brand-primary), radius 8px",
+          "menuTrack": "2px var(--bg-base-alpha-03) bottom line"
+        },
+        "headerTypes": [
+          "body",
+          "caption"
+        ],
+        "headerAreaSizes": [
+          "s",
+          "m"
+        ],
+        "keyProps": [
+          "headerType",
+          "headerAreaSize",
+          "isScrollMode",
+          "tabs",
+          "activeTab"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "name": "CommonPageWrapper",
+        "description": "Общий layout страницы (Header + Content + Footer)",
+        "visual": {
+          "layout": "min-height 100vh flex column",
+          "header": "Header 64px",
+          "footer": "Footer grey bg",
+          "content": "flex-grow main area"
+        },
+        "keyProps": [
+          "customHeader",
+          "customFooter",
+          "mainLinks",
+          "partnerLogo"
+        ]
+      },
+      {
+        "name": "NotFound",
+        "description": "Страница 404",
+        "visual": {
+          "layout": "centered full-viewport flex column, padding 16px",
+          "typography": "h6 title, body subtitle",
+          "button": "primary Button"
+        },
+        "keyProps": [
+          "title",
+          "subTitle",
+          "buttonText",
+          "onClick"
+        ],
+        "icons": {
+          "default": "HelpCircleDark.svg"
+        }
+      },
+      {
+        "name": "SomethingWentWrong",
+        "description": "Страница ошибки",
+        "visual": {
+          "layout": "centered viewport (как NotFound)",
+          "icon": "WarningCircle DecoratedIcon",
+          "typography": "h6 + body + support Link"
+        },
+        "keyProps": [
+          "title",
+          "subTitle",
+          "showButton",
+          "supportLink",
+          "link"
+        ],
+        "icons": {
+          "default": "AlertCircle.svg"
+        }
+      }
+    ],
+    "grid": [
+      {
+        "name": "Container",
+        "description": "Контейнер сетки с max-width",
+        "visual": {
+          "maxWidth": "1152px (1440px with useLgDesktop)",
+          "margin": "0 auto",
+          "padding": {
+            "mobile": "16px",
+            "tablet": "48px",
+            "desktop": "0"
+          }
+        },
+        "keyProps": [
+          "maxColsMobile",
+          "maxColsTablet",
+          "maxColsDesktop",
+          "paddingMobile",
+          "paddingTablet",
+          "paddingDesktop",
+          "useLgDesktop"
+        ]
+      },
+      {
+        "name": "Row",
+        "description": "Строка flex-сетки",
+        "visual": {
+          "display": "flex wrap",
+          "gutter": "negative 8px margin, width calc(100% + 16px)",
+          "margins": "responsive mt/mb"
+        },
+        "keyProps": [
+          "mtMobile",
+          "mtTablet",
+          "mtDesktop",
+          "mbMobile",
+          "mbTablet",
+          "mbDesktop"
+        ]
+      },
+      {
+        "name": "Column",
+        "description": "Колонка flex-сетки",
+        "visual": {
+          "padding": "0 8px gutter",
+          "width": "percentage-based on column count",
+          "display": "block or flex when align/justify set"
+        },
+        "keyProps": [
+          "mobile",
+          "tablet",
+          "desktop",
+          "lgDesktop",
+          "offsetMobile",
+          "offsetTablet",
+          "offsetDesktop",
+          "justifyContentMobile",
+          "alignItemsMobile"
+        ]
+      }
+    ]
+  }
+}

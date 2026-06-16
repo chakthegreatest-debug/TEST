@@ -1,0 +1,9 @@
+{
+  "source": "quickstart.md",
+  "startPoint": "Только идея",
+  "projectType": "static landing page",
+  "designSystem": "components-visual-spec.json",
+  "iconSource": "icons/",
+  "theme": "Light",
+  "brief": "Лендинг про продажи в страховой: хедер, витрина продуктов и предложения."
+}
